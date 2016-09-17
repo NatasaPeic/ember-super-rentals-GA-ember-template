@@ -19,7 +19,7 @@ module.exports = function(environment) {
     }
   };
 
-  if (environment === 'production') {
+  if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
@@ -27,7 +27,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
-  if (environment === 'test') {
+  if (environment === 'production') {
     // Testem prefers this...
     ENV.baseURL = '/ember-super-rentals-GA-ember-template';
     ENV.locationType = 'hash';
