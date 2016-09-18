@@ -1536,7 +1536,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-super-rentals-GA-ember-template/app")["default"].create({"name":"ember-super-rentals-GA-ember-template","version":"0.0.0+f83dec99"});
+  require("ember-super-rentals-GA-ember-template/app")["default"].create({"name":"ember-super-rentals-GA-ember-template","version":"0.0.0+c2eca8b5"});
 }
 
 /* jshint ignore:end */
